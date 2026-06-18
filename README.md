@@ -34,6 +34,7 @@ npm install        # install dependencies
 npm run dev        # dev server at http://localhost:5173
 npm run build      # build + SSR prerender → dist/
 npm run preview    # preview the dist/ build locally
+npm run deploy     # build and publish to GitHub Pages (gh-pages branch)
 ```
 
 ## Localization
@@ -57,13 +58,13 @@ Categories: `tiles` | `drywall` | `painting`
 
 ## GitHub Pages Deployment
 
-If the site is served from a subdirectory (`username.github.io/repo-name/`), set the `base` option in `vite.config.ts`:
+The site is deployed to `ihor-prodan.github.io/obkladyPRO/`. The `base` option in `vite.config.ts` is set accordingly:
 
 ```ts
 export default defineConfig({
   plugins: [react()],
-  base: '/repo-name/',
+  base: '/obkladyPRO/',
 })
 ```
 
-No changes needed when using a custom domain.
+If moved to a custom domain, remove the `base` option (or set it to `'/'`).
