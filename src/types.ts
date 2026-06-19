@@ -23,7 +23,7 @@ export interface Project {
 export interface ContactInfo {
   phone: string;
   phoneDisplay: string;
-  viberLink: string;
+  whatsappLink: string;
   telegramLink: string;
   instagramDisplay: string;
   instagramLink: string;

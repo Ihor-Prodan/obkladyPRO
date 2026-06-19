@@ -184,9 +184,15 @@
 
 .contact__social-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.75rem;
-  max-width: 24rem;
+  max-width: 32rem;
+}
+
+@media (min-width: 480px) {
+  .contact__social-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .contact__social-btn {
@@ -205,6 +211,13 @@
   text-decoration: none;
   transition: all 0.2s ease;
   cursor: pointer;
+  min-width: 0;
+}
+
+.contact__social-btn span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .contact__social-btn--telegram:hover {
@@ -213,8 +226,14 @@
   color: #ffffff;
 }
 
-.contact__social-btn--viber:hover {
+.contact__social-btn--whatsapp:hover {
   background-color: #1c1c1c;
-  border-color: rgba(192, 132, 252, 0.3);
+  border-color: rgba(37, 211, 102, 0.3);
+  color: #ffffff;
+}
+
+.contact__social-btn--instagram:hover {
+  background-color: #1c1c1c;
+  border-color: rgba(225, 48, 108, 0.3);
   color: #ffffff;
 }

@@ -225,13 +225,13 @@ export const BENEFITS_DATA: Benefit[] = [
 ];
 
 export const CONTACT_INFO: ContactInfo = {
-  phone: '+380671234567',
-  phoneDisplay: '+380 67 123 45 67',
-  viberLink: 'viber://chat',
-  telegramLink: 'https://t.me', // Placeholder of professional profile
-  instagramDisplay: '@',
-  instagramLink: 'https://instagram.com/',
-  email: 'test@gmail.com', // Setting user email as contact fallback
+  phone: '+421950434094',
+  phoneDisplay: '+421 950 434 094',
+  whatsappLink: 'https://wa.me/421950434094',
+  telegramLink: 'https://t.me/Vasyl_9304',
+  instagramDisplay: '@pilipchinec93',
+  instagramLink: 'https://www.instagram.com/pilipchinec93/',
+  email: 'Pilipchinecvasja1@gmail.com',
   workingHours: 'Пн - Сб: 08:30 - 19:30 (Неділя — вихідний)',
   coverageArea: 'Братислава, Пезінок, Сенець та навколишні райони'
 };

@@ -5,6 +5,7 @@ import {
   Check,
   ChevronDown,
   ChevronUp,
+  Droplet,
   Grid,
   Hammer,
   Layers,
@@ -24,6 +25,8 @@ function ServiceIcon({ name, color }: { name: string; color?: string }) {
       return <Paintbrush size={24} color={c} />;
     case "Hammer":
       return <Hammer size={24} color={c} />;
+    case "Droplet":
+      return <Droplet size={24} color={c} />;
     default:
       return <Wrench size={24} color={c} />;
   }

@@ -23,16 +23,29 @@ export const SERVICES_UK: Service[] = [
   {
     id: 'tiles',
     title: 'Укладання плитки',
-    description: 'Високоякісне лицювання стін та підлоги будь-яким форматом плитки.',
+    description: 'Високоякісне лицювання стін та підлоги будь-яким форматом плитки, включно з великоформатними плитами до 3200×1600 мм.',
     iconName: 'Grid',
     detailedWorks: [
-      'Укладання великоформатного керамограніту',
+      'Укладання великоформатного керамограніту та плит розміром до 3200×1600 мм (стіни, підлога, фасади)',
       'Запил зовнішніх кутів під 45 градусів (заусовка)',
       'Облаштування душових піддонів з плитки в будівельному виконанні та з правильним ухилом',
       'Облицювання стін кухонних фартухів (мозаїка, кабанчик, ялинка)',
       'Монтаж прихованих ревізійних люків під плитку',
       'Затирання швів епоксидною або цементною сумішшю',
       'Монтаж сантехнічної посуди та змішувачів'
+    ]
+  },
+  {
+    id: 'sinks',
+    title: 'Умивальники на замовлення',
+    description: 'Виготовлення та монтаж умивальників індивідуального розміру з каменю, кварциту чи композитних матеріалів.',
+    iconName: 'Droplet',
+    detailedWorks: [
+      'Проєктування умивальника під точні розміри ванної кімнати чи стільниці',
+      'Виготовлення з натурального каменю, кварциту або великоформатного керамограніту',
+      'Інтеграція прихованого або накладного зливу',
+      'Підбір та монтаж змішувачів і сифонів',
+      'Гідроізоляція та герметизація стику з тумбою або стільницею'
     ]
   },
   {
@@ -475,13 +488,13 @@ export const BENEFITS_UK: Benefit[] = [
 ];
 
 export const CONTACT_INFO_UK: ContactInfo = {
-  phone: '+380671234567',
-  phoneDisplay: '+380 67 123 45 67',
-  viberLink: 'viber://chat?number=%2B380671234567',
-  telegramLink: 'https://t.me/oleg_remont_pro',
-  instagramDisplay: '@oleg.remont.pro_ua',
-  instagramLink: 'https://instagram.com/',
-  email: 'prodanigor0@gmail.com',
+  phone: '+421950434094',
+  phoneDisplay: '+421 950 434 094',
+  whatsappLink: 'https://wa.me/421950434094',
+  telegramLink: 'https://t.me/Vasyl_9304',
+  instagramDisplay: '@pilipchinec93',
+  instagramLink: 'https://www.instagram.com/pilipchinec93/',
+  email: 'Pilipchinecvasja1@gmail.com',
   workingHours: 'Пн - Сб: 08:30 - 19:30 (Неділя — вихідний)',
   coverageArea: 'Братислава, Пезінок, Сенець та навколишні райони'
 };
@@ -491,16 +504,29 @@ export const SERVICES_SK: Service[] = [
   {
     id: 'tiles',
     title: 'Pokládka obkladov a dlažieb',
-    description: 'Vysokokvalitné obkladanie stien a pokládka dlažby akéhokoľvek formátu.',
+    description: 'Vysokokvalitné obkladanie stien a pokládka dlažby akéhokoľvek formátu, vrátane veľkoformátových dosiek až do 3200×1600 mm.',
     iconName: 'Grid',
     detailedWorks: [
-      'Pokládka veľkoformátového gresu',
+      'Pokládka veľkoformátového gresu a obkladových dosiek až do 3200×1600 mm (steny, podlaha, fasády)',
       'Zrezávanie vonkajších rohov pod 45 stupňov (kamenársky spoj - jolly hrany)',
       'Realizácia sprchových kútov z dlažby v stavebnom vyhotovení so správnym spádom',
       'Obkladanie kuchynských zásten (mozaika, metro obklady, rybia kosť)',
       'Montáž neviditeľných revíznych dvierok pod obklad',
       'Špárovanie epoxidovou alebo cementovou zmesou',
       'Montáž sanity, závesných modulov a vodovodných batérií'
+    ]
+  },
+  {
+    id: 'sinks',
+    title: 'Umývadlá na mieru',
+    description: 'Výroba a montáž umývadiel na presný rozmer z kameňa, kompozitu alebo veľkoformátového gresu.',
+    iconName: 'Droplet',
+    detailedWorks: [
+      'Návrh umývadla podľa presných rozmerov kúpeľne alebo dosky',
+      'Výroba z prírodného kameňa, kompozitu alebo veľkoformátového gresu',
+      'Integrácia skrytého alebo nadstavbového odtoku',
+      'Výber a montáž vodovodných batérií a sifónov',
+      'Hydroizolácia a tesnenie styku so skrinkou alebo doskou'
     ]
   },
   {
@@ -943,13 +969,13 @@ export const BENEFITS_SK: Benefit[] = [
 ];
 
 export const CONTACT_INFO_SK: ContactInfo = {
-  phone: '+380671234567', // Keep actual phone number but localized display
-  phoneDisplay: '+380 67 123 45 67',
-  viberLink: 'viber://chat?number=%2B380671234567',
-  telegramLink: 'https://t.me/oleg_remont_pro',
-  instagramDisplay: '@oleg.remont.pro_ua',
-  instagramLink: 'https://instagram.com/',
-  email: 'prodanigor0@gmail.com',
+  phone: '+421950434094',
+  phoneDisplay: '+421 950 434 094',
+  whatsappLink: 'https://wa.me/421950434094',
+  telegramLink: 'https://t.me/Vasyl_9304',
+  instagramDisplay: '@pilipchinec93',
+  instagramLink: 'https://www.instagram.com/pilipchinec93/',
+  email: 'Pilipchinecvasja1@gmail.com',
   workingHours: 'Po - So: 08:30 - 19:30 (Nedeľa — zatvorené)',
   coverageArea: 'Bratislava, Pezinok, Senec a okolité okresy'
 };

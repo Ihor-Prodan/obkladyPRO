@@ -1,6 +1,6 @@
 import { useLanguage } from "../../context/useLanguage";
 import { CONTACT_INFO_SK, CONTACT_INFO_UK } from "../../translations";
-import { Clock, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
+import { Camera, Clock, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
 import "./Contacts.css";
 
 export default function Contact() {
@@ -110,11 +110,22 @@ export default function Contact() {
               <span>Telegram</span>
             </a>
             <a
-              href={contactInfo.viberLink}
-              className="contact__social-btn contact__social-btn--viber"
+              href={contactInfo.whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact__social-btn contact__social-btn--whatsapp"
             >
-              <MessageSquare size={18} color="#c084fc" />
-              <span>Viber</span>
+              <MessageSquare size={18} color="#25D366" />
+              <span>WhatsApp</span>
+            </a>
+            <a
+              href={contactInfo.instagramLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact__social-btn contact__social-btn--instagram"
+            >
+              <Camera size={18} color="#e1306c" />
+              <span>{contactInfo.instagramDisplay}</span>
             </a>
           </div>
         </div>
